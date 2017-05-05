@@ -29,7 +29,7 @@ public class UserConfig extends WebMvcConfigurerAdapter {
     @Bean
     public Migo2Application geMigo2Application() {
         return new Migo2ApplicationBuilder()
-                .withPassword("123")
+                .withPassword("Summer12")
                 .build();
     }
 
